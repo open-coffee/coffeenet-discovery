@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Brixton.M3</version>
+        <version>Brixton.RELEASE</version>
         <relativePath />
     </parent>
     
@@ -47,14 +47,6 @@
             <id>releases.nexus.synyx.de</id>
             <url>http://nexus.synyx.de/content/repositories/releases</url>
         </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>http://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -76,5 +68,4 @@
             </plugin>
         </plugins>
     </build>
-    
 </project>

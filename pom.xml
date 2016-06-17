@@ -27,8 +27,12 @@
     </distributionManagement>
     
     <scm>
-        <connection>scm:git:ssh://git@git.synyx.de/infrastructure/selfservice-discovery.git</connection>
-        <developerConnection>scm:git:ssh://git@git.synyx.de/infrastructure/selfservice-discovery.git</developerConnection>
+        <connection>
+            scm:git:ssh://git@gitlab-test.synyx.coffee/coffeenet/coffeenet-discovery.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://git@gitlab-test.synyx.coffee/coffeenet/coffeenet-discovery.git
+        </developerConnection>
         <tag>HEAD</tag>
     </scm>
 

@@ -11,8 +11,8 @@
         <relativePath />
     </parent>
     
-    <groupId>de.synyx.selfservice</groupId>
-    <artifactId>selfservice-discovery</artifactId>
+    <groupId>coffee.synyx</groupId>
+    <artifactId>discovery</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <distributionManagement>

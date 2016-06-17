@@ -1,4 +1,4 @@
-package de.synyx.selfservice.discovery;
+package coffee.synyx.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class SelfserviceDiscovery {
+public class CoffeeNetDiscovery {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(SelfserviceDiscovery.class, args);
+        SpringApplication.run(CoffeeNetDiscovery.class, args);
     }
 }

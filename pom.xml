@@ -8,7 +8,7 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
         <version>Brixton.RELEASE</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <name>CoffeeNet Discovery Service</name>
@@ -30,7 +30,7 @@
             <url>http://nexus.synyx.de/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
-    
+
     <scm>
         <connection>
             scm:git:ssh://git@gitlab-test.synyx.coffee/coffeenet/coffeenet-discovery.git

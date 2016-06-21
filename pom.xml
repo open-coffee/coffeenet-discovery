@@ -10,7 +10,12 @@
         <version>Brixton.RELEASE</version>
         <relativePath />
     </parent>
-    
+
+    <name>CoffeeNet Discovery Service</name>
+    <description>
+        Discovery Service to register and retrieve information about the available services in the CoffeeNet landscape
+    </description>
+
     <groupId>coffee.synyx</groupId>
     <artifactId>discovery</artifactId>
     <version>1.0-SNAPSHOT</version>

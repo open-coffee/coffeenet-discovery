@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class CoffeeNetDiscovery {
 
+    @SuppressWarnings("checkstyle:uncommentedmain")
     public static void main(String[] args) {
 
         SpringApplication.run(CoffeeNetDiscovery.class, args);

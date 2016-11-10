@@ -8,11 +8,16 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class CoffeeNetDiscovery {
+public class DiscoveryApplication {
+
+    DiscoveryApplication() {
+
+        // hide implicit public constructor
+    }
 
     @SuppressWarnings("checkstyle:uncommentedmain")
     public static void main(String[] args) {
 
-        SpringApplication.run(CoffeeNetDiscovery.class, args);
+        SpringApplication.run(DiscoveryApplication.class, args);
     }
 }

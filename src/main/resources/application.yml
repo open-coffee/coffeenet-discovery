@@ -3,11 +3,17 @@ server:
 
 eureka:
   client:
-    registerWithEureka: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+  instance:
+    hostname: localhost
+    non-secure-port: 8761
+    metadata-map:
+      allowedAuthorities: ROLE_COFFEENET-ADMIN
 
 spring:
   application:
-    name: Service Discovery
+    name: CoffeeNet Discovery

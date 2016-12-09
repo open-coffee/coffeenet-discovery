@@ -5,6 +5,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+    registerWithEureka: true
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0

@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.4.RELEASE</version>
+        <groupId>coffee.synyx</groupId>
+        <artifactId>coffeenet-starter-parent</artifactId>
+        <version>0.18.0</version>
     </parent>
 
     <name>CoffeeNet Discovery Service</name>
@@ -13,7 +13,6 @@
         Discovery Service to register and retrieve information about the available services in the CoffeeNet landscape
     </description>
 
-    <groupId>coffee.synyx</groupId>
     <artifactId>discovery</artifactId>
     <version>1.5-SNAPSHOT</version>
 
@@ -38,31 +37,12 @@
         <tag>HEAD</tag>
     </scm>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <dependency.check.report.dir>${project.build.directory}/dependency-check</dependency.check.report.dir>
-        <sonar.dependencyCheck.reportPath>${dependency.check.report.dir}/dependency-check-report.xml</sonar.dependencyCheck.reportPath>
-    </properties>
-
     <repositories>
         <repository>
             <id>releases.nexus.synyx.de</id>
             <url>http://nexus.synyx.de/content/repositories/releases</url>
         </repository>
     </repositories>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Camden.SR5</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -76,7 +56,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -85,12 +64,6 @@
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
-                <version>1.4.4.1</version>
-                <configuration>
-                    <failOnError>false</failOnError>
-                    <format>XML</format>
-                    <outputDirectory>${dependency.check.report.dir}</outputDirectory>
-                </configuration>
             </plugin>
         </plugins>
     </build>

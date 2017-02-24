@@ -14,7 +14,7 @@
     </description>
 
     <artifactId>discovery</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
 
     <distributionManagement>
         <repository>
@@ -34,7 +34,7 @@
         <developerConnection>
             scm:git:ssh://git@gitlab.synyx.de/coffeenet/coffeenet-discovery.git
         </developerConnection>
-        <tag>HEAD</tag>
+        <tag>discovery-1.5</tag>
     </scm>
 
     <repositories>

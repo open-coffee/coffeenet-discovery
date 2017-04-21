@@ -1,5 +1,10 @@
 # Changelog 
 
+### 1.6.0
+* Add CoffeeNet Starter Parent 0.19.0
+  * Upgrade to Spring Cloud Camden.SR6
+  * Upgrade to Spring Boot 1.5.3
+
 ### 1.5.0
 * Upgrade to Spring Cloud Camden.SR5
 * Upgrade to Spring Boot 1.5.1

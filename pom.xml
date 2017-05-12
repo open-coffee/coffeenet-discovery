@@ -29,10 +29,10 @@
 
     <scm>
         <connection>
-            scm:git:ssh://git@gitlab.synyx.de/coffeenet/coffeenet-discovery.git
+            scm:git:ssh://git@github.com:coffeenet/coffeenet-discovery.git
         </connection>
         <developerConnection>
-            scm:git:ssh://git@gitlab.synyx.de/coffeenet/coffeenet-discovery.git
+            scm:git:ssh://git@github.com:coffeenet/coffeenet-discovery.git
         </developerConnection>
         <tag>HEAD</tag>
     </scm>

@@ -14,7 +14,7 @@
     </description>
 
     <artifactId>discovery</artifactId>
-    <version>1.6</version>
+    <version>1.7-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>

@@ -4,4 +4,8 @@
 
 ## How to use
 
-tbd
+### Development
+
+```bash
+./mvn clean spring-boot:run
+```

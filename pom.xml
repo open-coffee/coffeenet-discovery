@@ -27,13 +27,15 @@
         </snapshotRepository>
     </distributionManagement>
 
+    <issueManagement>
+        <url>https://github.com/coffeenet/coffeenet-discovery/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
     <scm>
-        <connection>
-            scm:git:ssh://git@github.com:coffeenet/coffeenet-discovery.git
-        </connection>
-        <developerConnection>
-            scm:git:ssh://git@github.com:coffeenet/coffeenet-discovery.git
-        </developerConnection>
+        <url>https://github.com/coffeenet/coffeenet-discovery</url>
+        <connection>scm:git:git://github.com/coffeenet/coffeenet-discovery.git</connection>
+        <developerConnection>scm:git:git@github.com:coffeenet/coffeenet-discovery.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 

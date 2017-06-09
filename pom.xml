@@ -15,7 +15,7 @@
     </description>
 
     <artifactId>discovery</artifactId>
-    <version>1.7</version>
+    <version>1.8-SNAPSHOT</version>
 
     <issueManagement>
         <url>https://github.com/coffeenet/coffeenet-discovery/issues</url>

@@ -1,5 +1,7 @@
 # Changelog 
 
+### 1.8.0
+
 ### 1.7.0
 * Add CoffeeNet Starter Parent 0.21.0
   * Upgrade to Spring Cloud Camden.SR7

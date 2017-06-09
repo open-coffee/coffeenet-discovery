@@ -10,7 +10,8 @@
 
     <name>CoffeeNet Discovery Service</name>
     <description>
-        Discovery Service to register and retrieve information about the available services in the CoffeeNet landscape
+        Discovery Service to register and retrieve information
+        about the available services in the CoffeeNet landscape
     </description>
 
     <artifactId>discovery</artifactId>

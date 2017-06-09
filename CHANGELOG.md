@@ -1,8 +1,9 @@
 # Changelog 
 
 ### 1.7.0
-* Add CoffeeNet Starter Parent 0.20.0
+* Add CoffeeNet Starter Parent 0.21.0
   * Upgrade to Spring Cloud Camden.SR7
+  * Upgrade to Spring Boot 1.5.4
 
 ### 1.6.0
 * Add CoffeeNet Starter Parent 0.19.0

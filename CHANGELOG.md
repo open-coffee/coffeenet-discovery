@@ -1,7 +1,7 @@
 # Changelog 
 
 ### 1.8.0
-* Add CoffeeNet Starter Parent 0.22.0
+* Add CoffeeNet Starter Parent 0.22.1
 
 ### 1.7.0
 * Add CoffeeNet Starter Parent 0.21.0

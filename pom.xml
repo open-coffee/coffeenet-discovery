@@ -81,10 +81,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- Spring Cloud Eureka Server -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
+
+        <!-- CoffeeNet -->
         <dependency>
             <groupId>coffee.synyx</groupId>
             <artifactId>starter-logging</artifactId>
@@ -92,6 +95,13 @@
         <dependency>
             <groupId>coffee.synyx</groupId>
             <artifactId>starter-discovery</artifactId>
+        </dependency>
+
+        <!-- Create Meta Data to provide autocompletion for configuration -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <!-- Test -->

@@ -1,5 +1,9 @@
 # Changelog 
 
+### 1.9.0
+* Add CoffeeNet Starter Parent 0.26.0
+  * Upgrade to Spring Cloud Dalston.SR3
+
 ### 1.8.0
 * Add CoffeeNet Starter Parent 0.23.0
   * Upgrade to Spring Cloud Dalston.SR1

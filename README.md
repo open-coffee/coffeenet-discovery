@@ -7,5 +7,5 @@
 ### Development
 
 ```bash
-./mvn clean spring-boot:run
+./mvnw clean spring-boot:run
 ```

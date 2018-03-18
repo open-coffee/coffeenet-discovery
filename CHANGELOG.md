@@ -1,6 +1,8 @@
 # Changelog 
 
 ### 1.11.0-SNAPSHOT
+* Add
+  * CoffeeNet Favicon
 
 ### 1.10.0
 * Upgrade

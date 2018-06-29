@@ -1,6 +1,8 @@
 # Changelog 
 
-### 1.12.0-SNAPSHOT
+### 1.12.0
+* Upgrade
+  * CoffeeNet Starter Parent to 0.31.0
 
 ### 1.11.0
 * Upgrade

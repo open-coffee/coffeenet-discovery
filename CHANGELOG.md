@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [Unreleased]
+### Changed
+- CoffeeNet Starter Parent to version `0.33.1`
+
 
 
 ## [1.13.0]

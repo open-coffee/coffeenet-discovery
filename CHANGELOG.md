@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 - CoffeeNet Starter Discovery
 
+
 ## [0.13.1]
 ### Changed
 - CoffeeNet Starter Parent to version `0.33.1`

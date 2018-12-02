@@ -92,10 +92,6 @@
             <groupId>coffee.synyx</groupId>
             <artifactId>starter-logging</artifactId>
         </dependency>
-        <dependency>
-            <groupId>coffee.synyx</groupId>
-            <artifactId>starter-discovery</artifactId>
-        </dependency>
 
         <!-- Create Meta Data to provide autocompletion for configuration -->
         <dependency>

@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [Unreleased]
+### Changed
+- Maven docker plugin to 0.27.2
+
 ### Removed
 - CoffeeNet Starter Discovery
 

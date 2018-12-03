@@ -8,7 +8,6 @@ eureka:
 coffeenet:
   profile: development
   application-name: CoffeeNet Discovery
-  allowed-authorities: ROLE_COFFEENET-ADMIN
   discovery:
     enabled: false
   logging:

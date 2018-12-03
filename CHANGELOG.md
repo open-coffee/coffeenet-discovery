@@ -5,15 +5,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased]
+## [0.14.0]
 ### Changed
 - Maven docker plugin to 0.27.2
+- CoffeeNet Starter Parent to version `0.36.0`
 
 ### Removed
 - CoffeeNet Starter Discovery
 
 
-## [0.13.1]
+## [1.13.1]
 ### Changed
 - CoffeeNet Starter Parent to version `0.33.1`
 
@@ -89,8 +90,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Upgrade to Spring Cloud Camden.SR4
 
 
-[Unreleased]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.13.1...HEAD
-[0.13.1]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.13...discovery-1.13.1
+[1.14.0]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.13.1...discovery-1.14.0
+[1.13.1]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.13...discovery-1.13.1
 [1.13.0]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.12...discovery-1.13
 [1.12.0]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.11...discovery-1.12
 [1.11.0]: https://github.com/coffeenet/coffeenet-discovery/compare/discovery-1.10...discovery-1.11

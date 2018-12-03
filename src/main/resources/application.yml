@@ -10,6 +10,8 @@ coffeenet:
   application-name: CoffeeNet Discovery
   discovery:
     enabled: false
+  security:
+    enabled: false
   logging:
     console:
       enabled: true

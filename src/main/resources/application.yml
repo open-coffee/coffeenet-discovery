@@ -10,8 +10,7 @@ coffeenet:
   application-name: CoffeeNet Discovery
   allowed-authorities: ROLE_COFFEENET-ADMIN
   discovery:
-    client:
-      fetch-registry: false
+    enabled: false
   logging:
     console:
       enabled: true
